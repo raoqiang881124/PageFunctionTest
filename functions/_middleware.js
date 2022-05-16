@@ -10,7 +10,6 @@ export async function onRequest(context) {
     } = context;
 
     let url = new URL(request.url);
-    url.hostname = "hostloc.com";
+    url.hostname = "alist.52lisa.com";
     return fetch(new Request(url, request))
 }
-1
