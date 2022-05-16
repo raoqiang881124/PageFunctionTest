@@ -13,3 +13,4 @@ export async function onRequest(context) {
     url.hostname = "hostloc.com";
     return fetch(new Request(url, request))
 }
+1
